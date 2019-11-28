@@ -1,0 +1,14 @@
+server:
+  port: 9084
+spring:
+  application:
+    name: openfeign-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
+
+#feign中启用断路器,不设置的话fallback无效(高版本中feign.hystrix默认关闭),如果像要停用去掉配置或设置为false即可
+feign:
+  hystrix:
+    enabled: true

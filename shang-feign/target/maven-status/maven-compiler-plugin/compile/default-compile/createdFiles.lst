@@ -1,0 +1,4 @@
+cn\wh\shang\feign\service\FeignService.class
+cn\wh\shang\feign\service\FallbackService.class
+cn\wh\shang\feign\controller\ConsumerController.class
+cn\wh\shang\feign\OpenfeignApplication.class
